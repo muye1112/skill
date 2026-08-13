@@ -1,0 +1,39 @@
+{
+  "name": "research-skills",
+  "version": "1.0.0",
+  "description": "个人科研 skill 集：文献检索、精读、综述撰写、引用校验。",
+  "author": {
+    "name": "muye1112",
+    "url": "https://github.com/muye1112"
+  },
+  "homepage": "https://github.com/muye1112/skill",
+  "repository": "https://github.com/muye1112/skill",
+  "license": "MIT",
+  "keywords": [
+    "literature-review",
+    "systematic-review",
+    "prisma",
+    "academic-research",
+    "citation-verification"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "科研文献工作流",
+    "shortDescription": "文献综述全流程：检索、筛选、精读、综合、引用校验。",
+    "longDescription": "把中文研究问题转成含 MeSH 主题词的英文检索式，跨多个免费数据库检索，按 PRISMA 两阶段筛选，结构化抽取，主题化综合成综述草稿，并对每条引用查 Crossref 做真实性与撤稿校验。附带精读、创新性评估、投稿前自查等配套技能。",
+    "developerName": "muye1112",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/muye1112/skill",
+    "defaultPrompt": [
+      "帮我做一篇关于肠道菌群与抑郁症的文献综述",
+      "这个研究方向有哪些已有工作？帮我检索并归纳",
+      "精读这篇 PDF 并生成结构化笔记",
+      "校验我这篇稿子里的引用是不是真实存在"
+    ],
+    "brandColor": "#0B4FA8"
+  }
+}

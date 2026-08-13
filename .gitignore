@@ -1,0 +1,23 @@
+# 系统文件
+Thumbs.db
+Desktop.ini
+.DS_Store
+*~
+*.swp
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+
+# 密钥
+.env
+.env.*
+*.key
+secrets.*
+
+# 缓存
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
