@@ -5,6 +5,7 @@
 | 能力 | 说明 |
 |---|---|
 | **文献检索** | 中文研究问题 → 含 MeSH 主题词的英文检索式，跨 5 个免费数据库 |
+| **批判性精读** | PDF → 「5 问批判清单 + 全文精翻」v2.0 笔记，批量归档 Zotero（MCP HTTP 直连，零重启） |
 | **精读单篇** | PDF / DOI → 结构化笔记，含图表处理 |
 | **PRISMA 筛选** | 两阶段筛选、排除原因记录、流程图导出 |
 | **主题综合** | 按主题组织而非逐篇罗列 |
@@ -143,6 +144,15 @@ skills/
 │   └── agents/openai.yaml      Codex 适配层
 │
 ├── deeppapernote/              单篇精读 → Obsidian 笔记
+├── deep-read-zotero/           批判性精读 v2.0 → Zotero 批量归档
+│   ├── SKILL.md                5 问批判法 + MCP HTTP 直连原理
+│   ├── codex/SKILL.md          Codex 适配版（串行流程 + 读图优势）
+│   ├── references/
+│   │   ├── critical-reading.md 批判性 5 问方法论（Sartorius & Thornicroft 2025）
+│   │   └── note-template.md    v2.0 笔记 HTML 模板 + 写作检查清单
+│   └── scripts/
+│       ├── mcp_client.py       Zotero MCP HTTP 直连客户端（绕开客户端工具故障）
+│       └── zotero_import.py    精读笔记批量导入 + 验证工具
 ├── paper-glossary/             术语表构建
 ├── liteparse/                  PDF 解析
 │

@@ -20,4 +20,4 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
-node_modules/
+node_modules/import_report.json
